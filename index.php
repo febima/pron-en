@@ -101,6 +101,7 @@
 						  <option data-icon="glyphicon glyphicon-shopping-cart">&nbsp;Tata Niaga</option>
 						  <option data-icon="glyphicon glyphicon-facetime-video">&nbsp;Multimedia</option>
 						  <option data-icon="fa fa-android">&nbsp;Software Engineering</option>
+						   <option data-icon="fa fa-android">&nbsp;Test</option>
 						</select>
 					  <button class="btn-search" style="border-left:0px;"> <i class="fa fa-search fa-fw"></i></button>
 				</form>
