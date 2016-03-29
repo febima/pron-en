@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)https://www.npmjs.com/package/emoticons-js -->
+<html lang="en" prefix="og: http://ogp.me/ns#" class=" js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.autocomplete-container {  overflow: visible;}.autocomplete-suggestions {  border: 1px solid #999;  background: #FFF;  overflow-x: hidden;  overflow-y: auto;  cursor: default;}.autocomplete-suggestion {  padding: 2px 5px;  white-space: nowrap;  overflow: hidden;}.autocomplete-selected {  background: #F0F0F0;}.autocomplete-container strong {  font-weight: bold;}#powered-by-constructor-io {  font-size: 0.8em;  text-align:right;  background-color:rgb(255,255,192);  font-family:sans-serif;  padding: 4px 10px;  position: absolute;  border: 1px solid #999;}#constructorio-backing-node {  background-color:rgb(255,255,255);  padding: 4px 10px;  position: absolute;  border: 1px solid #FFF;}.autocomplete-suggestion-image {  float:left;  padding-right: 10px;}#autocomplete-direct-results:before {  content:'Products'}#autocomplete-search-container:before {  content:'Search Suggestions'}.autocomplete-suggestion-description {  font-size: 0.8em;  display: block;  margin-left: 10px;  line-height: 1.0em;}</style>
+  
+  <script type="text/javascript" src="./emoticons-js_files/ba86f45fc4"></script><script src="./emoticons-js_files/nr-892.min.js"></script><script async="" src="./emoticons-js_files/analytics.js"></script><script nonce="adbe760438c064702de949168bcdaefb5c7631c3b36c2972c95fb21bcf20b6bfb63435fa2a7a32e80dd3b186bac9d0838992cf65e23f6b1c0710e5e4a9b911fa" type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"agent":"","beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"ba86f45fc4","applicationID":"9556514","applicationTime":24.113385,"transactionName":"M1BXZxFZVkQFURBdVwoafVITURdwIWZLG0gFVl5SBF0XTBRTB19ZA1BI","queueTime":0,"ttGuid":"1519042e56ab83","agentToken":null}; window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=(""+location).split("?")[0],l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-892.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+  <title>emoticons-js</title>
+
+    <meta name="description" content="A jQuery plugin for converting text emojis into image-based emoticons, also supporting an automatic media embedding system for multimedia URLs">
+    <meta property="og:description" content="A jQuery plugin for converting text emojis into image-based emoticons, also supporting an automatic media embedding system for multimedia URLs">
+    <meta property="og:title" content="emoticons-js">
+    <meta property="og:url" content="https://www.npmjs.com/package/emoticons-js">
+    <meta property="og:site_name" content="npm">
+    <meta name="keywords" content="plugins,jquery-plugin,jquery,emoticons,jquery-emoticons,emoticon,emoticons-js">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://www.npmjs.com/package/emoticons-js">
+    <meta name="twitter:title" content="npm: emoticons-js">
+    <meta name="twitter:description" content="A jQuery plugin for converting text emojis into image-based emoticons, also supporting an automatic media embedding system for multimedia URLs">
+  
+  
+  <meta http-equiv="cleartype" content="on">
+  
+  <meta name="apple-mobile-web-app-capable" content="no">
+  
+  
+  <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1,user-scalable=yes">
+  
+  <meta name="x-npm:ga:id" content="UA-47041310-1">
+  <meta name="x-npm:ga:dimensions" content="{&quot;aboveChrome&quot;:&quot;dimension1&quot;,&quot;belowHeader&quot;:&quot;dimension3&quot;,&quot;packagePage&quot;:&quot;dimension2&quot;}">
+  
+  <link rel="canonical" href="https://www.npmjs.com/package/emoticons-js">
+  <link rel="search" type="application/opensearchdescription+xml" href="https://www.npmjs.com/opensearch.xml" title="npm">
+
+    <link rel="stylesheet" media="all" href="./emoticons-js_files/index.861cdb76.css">
+
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <![endif]-->
+
+  <link rel="stylesheet" href="./emoticons-js_files/css">
+  
+    <script src="./emoticons-js_files/index.min.1aeef73a.js"></script>
+    <style>
+      .marketing {
+  margin: 0px;
+  margin-left: -10px;
+  margin-bottom: 40px;
+  padding: 0px 0px;
+  font-size: 15px;
+  font-style: normal;
+  fond-variant: normal;
+  fort-weight: normal;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  letter-spacing: -0.03em;
+  line-height: 22.5px;
+  }
+  
+  .marketing a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #cb3837;
+  }
+  
+  .marketing h3 {
+  display: block;
+  margin: 0;
+  padding: 20px 0 10px 0;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .marketing h3 a {
+  color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .marketing h3 a:hover {
+  color: #cb3837;
+  }
+  
+  .marketing p {
+  line-height: 22.5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  
+  .marketing p a {
+  white-space: nowrap;
+  }
+  
+  #marketing-texthed {
+  margin-left: 10px;
+  }
+    </style>
+  <link rel="apple-touch-icon" sizes="57x57" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-icon-180x180.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 1)" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-startup-image-1024x748.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-startup-image-1536x2008.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-startup-image-2048x1496.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-startup-image-320x460.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-startup-image-640x1096.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-startup-image-640x920.png">
+  <link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 1)" href="https://www.npmjs.com/static/images/touch-icons/apple-touch-startup-image-768x1004.png">
+  <link rel="icon" type="image/png" href="https://www.npmjs.com/static/images/touch-icons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="https://www.npmjs.com/static/images/touch-icons/favicon-230x230.png" sizes="230x230">
+  <link rel="icon" type="image/png" href="https://www.npmjs.com/static/images/touch-icons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="https://www.npmjs.com/static/images/touch-icons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="https://www.npmjs.com/static/images/touch-icons/coast-228x228.png" sizes="228x228">
+  <link rel="icon" type="image/png" href="https://www.npmjs.com/static/images/touch-icons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="https://www.npmjs.com/static/images/touch-icons/manifest.json">
+  <link rel="shortcut icon" href="https://www.npmjs.com/static/images/touch-icons/favicon.ico">
+  <link rel="yandex-tableau-widget" href="https://www.npmjs.com/static/images/touch-icons/yandex-browser-manifest.json">
+  <meta property="og:image" content="https://www.npmjs.com/static/images/touch-icons/open-graph.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="msapplication-TileColor" content="#cb3837">
+  <meta name="msapplication-TileImage" content="/static/images/touch-icons/mstile-144x144.png">
+  <meta name="msapplication-config" content="/static/images/touch-icons/browserconfig.xml">
+  <meta name="theme-color" content="#cb3837">
+
+<style>.autocomplete-container, .autocomplete-suggestions, #powered-by-constructor-io { width: 954px !important }</style><style id="iconic-responsive-css" type="text/css">/* Iconic Responsive Support Styles */
+.iconic-property-fill, .iconic-property-text {stroke: none !important;}
+.iconic-property-stroke {fill: none !important;}
+svg.iconic.iconic-fluid {height:100% !important;width:100% !important;}
+svg.iconic.iconic-sm:not(.iconic-size-md):not(.iconic-size-lg), svg.iconic.iconic-size-sm{width:16px;height:16px;}
+svg.iconic.iconic-md:not(.iconic-size-sm):not(.iconic-size-lg), svg.iconic.iconic-size-md{width:32px;height:32px;}
+svg.iconic.iconic-lg:not(.iconic-size-sm):not(.iconic-size-md), svg.iconic.iconic-size-lg{width:128px;height:128px;}
+svg.iconic-sm > g.iconic-md, svg.iconic-sm > g.iconic-lg, svg.iconic-md > g.iconic-sm, svg.iconic-md > g.iconic-lg, svg.iconic-lg > g.iconic-sm, svg.iconic-lg > g.iconic-md {display: none;}
+svg.iconic.iconic-icon-sm > g.iconic-lg, svg.iconic.iconic-icon-md > g.iconic-lg {display:none;}
+svg.iconic-sm:not(.iconic-icon-md):not(.iconic-icon-lg) > g.iconic-sm, svg.iconic-md.iconic-icon-sm > g.iconic-sm, svg.iconic-lg.iconic-icon-sm > g.iconic-sm {display:inline;}
+svg.iconic-md:not(.iconic-icon-sm):not(.iconic-icon-lg) > g.iconic-md, svg.iconic-sm.iconic-icon-md > g.iconic-md, svg.iconic-lg.iconic-icon-md > g.iconic-md {display:inline;}
+svg.iconic-lg:not(.iconic-icon-sm):not(.iconic-icon-md) > g.iconic-lg, svg.iconic-sm.iconic-icon-lg > g.iconic-lg, svg.iconic-md.iconic-icon-lg > g.iconic-lg {display:inline;}</style></head>
+
+<body itemscope="" itemtype="http://schema.org/WebSite" data-crumb="oLhlcQwRjXjLQEhKagmMuNoAFMKpnjdzEg91mqjZEG5">
+  <meta itemprop="url" content="https://www.npmjs.com/">
+
+
+  <header class="anonymous ">
+    <!-- logo -->
+    <div class="header-item brand-container">
+      <div class="logo-container" id="npm-logo">
+        <a href="https://www.npmjs.com/"><img src="./emoticons-js_files/npm-logo.svg" alt="npm logo"></a>
+      </div>
+    </div>
+    <!-- /logo -->
+  
+  
+    <!-- search -->
+    <div class="header-item header-search-container">
+      <form class="site-search" id="npm-search" action="https://www.npmjs.com/search" method="get" itemprop="potentialAction" itemscope="" itemtype="http://schema.org/SearchAction">
+        <meta itemprop="target" content="https://www.npmjs.com/search?q={q}">
+        <div id="site-search-container">
+            <input name="q" value="" type="search" id="site-search" placeholder="find packages" tabindex="1" autocorrect="off" autocapitalize="off" itemprop="query-input" autocomplete="off">
+        </div>
+        <input type="submit">
+      </form>
+    </div>
+  
+    <!-- menu 1 -->
+    <div class="header-item user-info-container">
+      <div class="user-info">
+          <ul class="user-info-salutation single">
+            <li><a href="https://www.npmjs.com/signup">sign up</a> or <a href="https://www.npmjs.com/login">log in</a></li>
+            <li><a href="https://www.npmjs.com/login"><span class="a11y-only">log in</span><span class="icon icon-wombat-head-login"></span></a></li>
+          </ul>
+      </div> <!-- .user-info -->
+    </div>
+    <!-- /menu 1 -->
+  
+    <!-- menu 2 -->
+    <div class="header-item header-nav-menu-container">
+      <a href="https://www.npmjs.com/package/emoticons-js#" id="npm-expansions" class="npm-expansions" data-event-trigger="click" data-event-name="npm-expansions">Neurological Phenomenon Multiplexer</a>
+  
+      <div class="nav-menu-container" role="navigation">
+        <a class="nav-toggle drop-down-menu-toggle" href="https://www.npmjs.com/package/emoticons-js#product-navigation"><span class="a11y-only">Toggle Navigation</span>
+          <img alt="mobile navigation menu" src="./emoticons-js_files/mobile-menu.png">
+        </a>
+  
+  
+        <div class="drop-down-menu-container" role="menu">
+          <nav id="product-navigation" class="product-navigation drop-down-menu">
+            <ul class="drop-down-menu-section products-list">
+              <li><a href="https://www.npmjs.com/npm/on-site">npm On-Site</a></li>
+              <li><a href="https://www.npmjs.com/npm/private-packages" data-event-trigger="click" data-event-name="private-modules-nav-link">npm Private Packages</a></li>
+              <li><a href="https://www.npmjs.com/npm/open-source">npm Open Source</a></li>
+              <li><a href="https://docs.npmjs.com/">documentation</a></li>
+              <li><a href="https://www.npmjs.com/support">support</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- /menu 2 -->
+  
+  
+  
+  </header>
+
+
+    <div class="container content">
+      
+<div class="content-column">
+
+  <h1 class="package-name">
+    <a href="https://www.npmjs.com/package/emoticons-js" class="active">emoticons-js</a>
+      <i class="icon-public"></i>
+  </h1>
+  <p class="package-description">A jQuery plugin for converting text emojis into image-based emoticons, also supporting an automatic media embedding system for multimedia URLs</p>
+
+  <form class="star">
+    <input type="hidden" name="name" value="emoticons-js">
+    <input id="star-input" type="checkbox" name="isStarred" value="true">
+    <label for="star-input" class="icon-star"></label>
+      <input type="hidden" name="crumb" value="oLhlcQwRjXjLQEhKagmMuNoAFMKpnjdzEg91mqjZEG5">
+  </form>
+
+  <div id="readme" class="markdown">
+      <h1 id="user-content-emoticons-js" class="deep-link package-name-redundant"><a href="https://www.npmjs.com/package/emoticons-js#emoticons-js">Emoticons-js</a></h1>
+<p>A jquery plugin to insert emojis, font smileys, embed videos (youtube/vimeo), media files,pdf and highlight code syntax.</p>
+<h2 id="user-content-features" class="deep-link"><a href="https://www.npmjs.com/package/emoticons-js#features">Features</a></h2>
+<ul>
+<li>Converts emoticon text codes into emoticons 😄 , ❤️</li>
+<li>Finds links in text input and turns them into html links.</li>
+<li>Youtube and Vimeo video embedding with video details fetched from the api.</li>
+<li>HTML5 player supported media embedding (mp3,mp4,ogg)</li>
+<li>PDF viewing with preview and then the actual pdf in a frame.</li>
+<li>Inline Code Syntax highlighting (uses highlight.js)</li>
+<li>Twitter tweet embedding supported</li>
+<li>Codepen, jsbin, jsfiddle embed supported</li>
+<li>soundcloud and spotify support</li>
+<li>Twitch tv, dotSub, dailymotion, vine,TED and liveLeak support.</li>
+<li>Google map location embed</li>
+</ul>
+<h2 id="user-content-dependencies" class="deep-link"><a href="https://www.npmjs.com/package/emoticons-js#dependencies">Dependencies</a></h2>
+<ul>
+<li>Jquery &gt;= 1.2</li>
+<li><a href="https://highlightjs.org/">Highlight.js</a> (Optional if code syntax highlighting is needed)</li>
+<li><a href="http://platform.twitter.com/widgets.js">Twitter widgets.js</a> (Optional if tweet embed support is set to true needed)</li>
+</ul>
+<h2 id="user-content-getting-started" class="deep-link"><a href="https://www.npmjs.com/package/emoticons-js#getting-started">Getting started</a></h2>
+<p>Bower</p>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>bower&nbsp;install&nbsp;--save&nbsp;emoticons-js</span></span></div></pre></code></pre>
+<p>npm</p>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>npm&nbsp;install&nbsp;--save&nbsp;emoticons-js</span></span></div></pre></code></pre>
+<p>Load css file</p>
+<pre><code class="highlight"><pre class="editor editor-colors"><div class="line"><span class="text html"><span class="meta tag inline any html"><span class="punctuation definition tag begin html"><span>&lt;</span></span><span class="entity name tag inline any html"><span>link</span></span><span>&nbsp;</span><span class="entity other attribute-name html"><span>rel</span></span><span>=</span><span class="string quoted double html"><span class="punctuation definition string begin html"><span>"</span></span><span>stylesheet</span><span class="punctuation definition string end html"><span>"</span></span></span><span>&nbsp;</span><span class="entity other attribute-name html"><span>href</span></span><span>=</span><span class="string quoted double html"><span class="punctuation definition string begin html"><span>"</span></span><span>path/to/jquery.emoticons.css</span><span class="punctuation definition string end html"><span>"</span></span></span><span class="punctuation definition tag end html"><span>/&gt;</span></span></span></span></div></pre></code></pre>
+<p>Load Scripts</p>
+<pre><code class="highlight"><pre class="editor editor-colors"><div class="line"><span class="text html"><span class="meta tag any html"><span class="punctuation definition tag html"><span>&lt;</span></span><span class="entity name tag html"><span>script</span></span><span>&nbsp;</span><span class="entity other attribute-name html"><span>src</span></span><span>=</span><span class="string quoted double html"><span class="punctuation definition string begin html"><span>"</span></span><span>path/to/jquery.min.js</span><span class="punctuation definition string end html"><span>"</span></span></span><span class="punctuation definition tag html"><span>&gt;</span><span class="meta scope html"><span>&lt;</span></span><span>/</span></span><span class="entity name tag html"><span>script</span></span><span class="punctuation definition tag html"><span>&gt;</span></span></span></span></div><div class="line"><span class="text html"><span class="comment block html"><span class="punctuation definition comment html"><span>&lt;!--</span></span><span>====&nbsp;Optional&nbsp;=====</span><span class="punctuation definition comment html"><span>--&gt;</span></span></span></span></div><div class="line"><span class="text html"><span class="meta tag any html"><span class="punctuation definition tag html"><span>&lt;</span></span><span class="entity name tag html"><span>script</span></span><span>&nbsp;</span><span class="entity other attribute-name html"><span>src</span></span><span>=</span><span class="string quoted double html"><span class="punctuation definition string begin html"><span>"</span></span><span class="markup underline link hyperlink"><span>https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js</span></span><span class="punctuation definition string end html"><span>"</span></span></span><span class="punctuation definition tag html"><span>&gt;</span><span class="meta scope html"><span>&lt;</span></span><span>/</span></span><span class="entity name tag html"><span>script</span></span><span class="punctuation definition tag html"><span>&gt;</span></span></span></span></div><div class="line"><span class="text html"><span class="meta tag any html"><span class="punctuation definition tag html"><span>&lt;</span></span><span class="entity name tag html"><span>script</span></span><span>&nbsp;</span><span class="entity other attribute-name html"><span>src</span></span><span>=</span><span class="string quoted double html"><span class="punctuation definition string begin html"><span>"</span></span><span class="markup underline link hyperlink"><span>http://platform.twitter.com/widgets.js</span></span><span class="punctuation definition string end html"><span>"</span></span></span><span class="punctuation definition tag html"><span>&gt;</span><span class="meta scope html"><span>&lt;</span></span><span>/</span></span><span class="entity name tag html"><span>script</span></span><span class="punctuation definition tag html"><span>&gt;</span></span></span></span></div><div class="line"><span class="text html"><span class="comment block html"><span class="punctuation definition comment html"><span>&lt;!--</span></span><span>===================</span><span class="punctuation definition comment html"><span>--&gt;</span></span></span></span></div><div class="line"><span class="text html"><span class="meta tag any html"><span class="punctuation definition tag html"><span>&lt;</span></span><span class="entity name tag html"><span>script</span></span><span>&nbsp;</span><span class="entity other attribute-name html"><span>src</span></span><span>=</span><span class="string quoted double html"><span class="punctuation definition string begin html"><span>"</span></span><span>path/to/jquery.emoticons.js</span><span class="punctuation definition string end html"><span>"</span></span></span><span class="punctuation definition tag html"><span>&gt;</span><span class="meta scope html"><span>&lt;</span></span><span>/</span></span><span class="entity name tag html"><span>script</span></span><span class="punctuation definition tag html"><span>&gt;</span></span></span></span></div></pre></code></pre>
+<h2 id="user-content-html-structure" class="deep-link"><a href="https://www.npmjs.com/package/emoticons-js#html-structure">HTML Structure</a></h2>
+<pre><code class="highlight"><pre class="editor editor-colors"><div class="line"><span class="text html"><span class="meta tag block any html"><span class="punctuation definition tag begin html"><span>&lt;</span></span><span class="entity name tag block any html"><span>div</span></span><span>&nbsp;</span><span class="meta id html"><span class="entity other attribute-name id html"><span>id</span></span><span class="punctuation separator key-value html"><span>=</span></span><span class="string quoted double html"><span class="punctuation definition string begin html"><span>"</span></span><span class="meta toc-list id html"><span>element</span></span><span class="punctuation definition string end html"><span>"</span></span></span></span><span class="punctuation definition tag end html"><span>&gt;</span></span></span></span></div><div class="line"><span class="text html"><span>&nbsp;&nbsp;</span><span class="meta tag block any html"><span class="punctuation definition tag begin html"><span>&lt;</span></span><span class="entity name tag block any html"><span>div</span></span><span class="punctuation definition tag end html"><span>&gt;</span></span></span><span>&nbsp;Some&nbsp;content&nbsp;here&nbsp;</span><span class="meta tag block any html"><span class="punctuation definition tag begin html"><span>&lt;/</span></span><span class="entity name tag block any html"><span>div</span></span><span class="punctuation definition tag end html"><span>&gt;</span></span></span></span></div><div class="line"><span class="text html"><span>&nbsp;&nbsp;</span><span class="meta tag block any html"><span class="punctuation definition tag begin html"><span>&lt;</span></span><span class="entity name tag block any html"><span>div</span></span><span class="punctuation definition tag end html"><span>&gt;</span></span></span><span>&nbsp;Some&nbsp;content&nbsp;here&nbsp;</span><span class="meta tag block any html"><span class="punctuation definition tag begin html"><span>&lt;/</span></span><span class="entity name tag block any html"><span>div</span></span><span class="punctuation definition tag end html"><span>&gt;</span></span></span></span></div><div class="line"><span class="text html"><span>&nbsp;&nbsp;...</span></span></div><div class="line"><span class="text html"><span>&nbsp;&nbsp;...</span></span></div><div class="line"><span class="text html"><span class="meta tag block any html"><span class="punctuation definition tag begin html"><span>&lt;/</span></span><span class="entity name tag block any html"><span>div</span></span><span class="punctuation definition tag end html"><span>&gt;</span></span></span></span></div></pre></code></pre>
+<h2 id="user-content-simple-usage" class="deep-link"><a href="https://www.npmjs.com/package/emoticons-js#simple-usage">Simple Usage</a></h2>
+<pre><code class="highlight"><pre class="editor editor-colors"><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation definition tag html"><span>&lt;</span></span><span class="entity name tag script html"><span>script</span></span><span class="punctuation definition tag html"><span>&gt;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>$</span><span class="meta brace round js"><span>(</span></span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>#element</span><span class="punctuation definition string end js"><span>'</span></span></span><span class="meta brace round js"><span>)</span></span><span class="meta delimiter method period js"><span>.</span></span><span>emoticons</span><span class="meta brace round js"><span>(</span></span><span class="meta brace curly js"><span>{</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;gdevAuthKey&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>xxxxxxxx</span><span class="punctuation definition string end js"><span>'</span></span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="meta brace curly js"><span>}</span></span><span class="meta brace round js"><span>)</span></span><span class="punctuation terminator statement js"><span>;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation definition tag html"><span>&lt;/</span></span><span class="entity name tag script html"><span>script</span></span><span class="punctuation definition tag html"><span>&gt;</span></span><span>&nbsp;</span></span></span></div></pre></code></pre>
+<h2 id="user-content-advanced-usage" class="deep-link"><a href="https://www.npmjs.com/package/emoticons-js#advanced-usage">Advanced Usage</a></h2>
+<pre><code class="highlight"><pre class="editor editor-colors"><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation definition tag html"><span>&lt;</span></span><span class="entity name tag script html"><span>script</span></span><span class="punctuation definition tag html"><span>&gt;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>$</span><span class="meta brace round js"><span>(</span></span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>#element</span><span class="punctuation definition string end js"><span>'</span></span></span><span class="meta brace round js"><span>)</span></span><span class="meta delimiter method period js"><span>.</span></span><span>emoticons</span><span class="meta brace round js"><span>(</span></span><span class="meta brace curly js"><span>{</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Instructs&nbsp;the&nbsp;library&nbsp;whether&nbsp;or&nbsp;not&nbsp;to&nbsp;embed&nbsp;urls</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>same&nbsp;as&nbsp;the&nbsp;target&nbsp;attribute&nbsp;in&nbsp;html&nbsp;anchor&nbsp;tag&nbsp;.&nbsp;supports&nbsp;all&nbsp;html&nbsp;supported&nbsp;target&nbsp;values.</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkTarget&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>_blank</span><span class="punctuation definition string end js"><span>'</span></span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Array&nbsp;of&nbsp;extensions&nbsp;to&nbsp;be&nbsp;excluded&nbsp;from&nbsp;converting&nbsp;into&nbsp;links</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkExclude&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="meta brace square js"><span>[</span></span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>jpg</span><span class="punctuation definition string end js"><span>'</span></span></span><span class="meta delimiter object comma js"><span>,</span></span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>pdf</span><span class="punctuation definition string end js"><span>'</span></span></span><span class="meta brace square js"><span>]</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>set&nbsp;true&nbsp;to&nbsp;show&nbsp;a&nbsp;preview&nbsp;of&nbsp;pdf&nbsp;links</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pdfEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>set&nbsp;true&nbsp;to&nbsp;embed&nbsp;images</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;imageEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>set&nbsp;true&nbsp;to&nbsp;embed&nbsp;audio</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;audioEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean false js"><span>false</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>set&nbsp;true&nbsp;to&nbsp;show&nbsp;a&nbsp;preview&nbsp;of&nbsp;youtube/vimeo&nbsp;videos&nbsp;with&nbsp;details</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;videoEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>set&nbsp;true&nbsp;to&nbsp;show&nbsp;basic&nbsp;video&nbsp;files&nbsp;like&nbsp;mp4&nbsp;etc.&nbsp;(supported&nbsp;by&nbsp;html5&nbsp;player)</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;basicVideoEmbed&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>width&nbsp;of&nbsp;the&nbsp;video&nbsp;frame&nbsp;(in&nbsp;pixels)</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;videoWidth&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant numeric js"><span>640</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>height&nbsp;of&nbsp;the&nbsp;video&nbsp;frame&nbsp;(in&nbsp;pixels)</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;videoHeight&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant numeric js"><span>390</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>(&nbsp;Mandatory&nbsp;)&nbsp;The&nbsp;authorization&nbsp;key&nbsp;obtained&nbsp;from&nbsp;google's&nbsp;developer&nbsp;console&nbsp;for</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>using&nbsp;youtube&nbsp;data&nbsp;api&nbsp;and&nbsp;map&nbsp;embed&nbsp;api</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;gdevAuthKey&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>xxxxxxx</span><span class="punctuation definition string end js"><span>'</span></span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Set&nbsp;google&nbsp;map&nbsp;location&nbsp;embed</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>&nbsp;Use&nbsp;@(place-name)&nbsp;to&nbsp;use&nbsp;this&nbsp;feature&nbsp;.&nbsp;Eg:&nbsp;@(Sydney)</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;locationEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Instructs&nbsp;the&nbsp;library&nbsp;whether&nbsp;or&nbsp;not&nbsp;to&nbsp;highlight&nbsp;code&nbsp;syntax.</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;highlightCode&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Instructs&nbsp;the&nbsp;library&nbsp;whether&nbsp;or&nbsp;not&nbsp;embed&nbsp;the&nbsp;tweets</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tweetsEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tweetOptions</span><span class="keyword operator js"><span>:</span></span><span class="meta brace curly js"><span>{</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>The&nbsp;maximum&nbsp;width&nbsp;of&nbsp;a&nbsp;rendered&nbsp;Tweet&nbsp;in&nbsp;whole&nbsp;pixels.&nbsp;Must&nbsp;be&nbsp;between&nbsp;220&nbsp;and&nbsp;550&nbsp;inclusive.</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maxWidth&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant numeric js"><span>550</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>When&nbsp;set&nbsp;to&nbsp;true&nbsp;or&nbsp;1&nbsp;links&nbsp;in&nbsp;a&nbsp;Tweet&nbsp;are&nbsp;not&nbsp;expanded&nbsp;to&nbsp;photo,&nbsp;video,&nbsp;or&nbsp;link&nbsp;previews.</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hideMedia&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean false js"><span>false</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>When&nbsp;set&nbsp;to&nbsp;true&nbsp;or&nbsp;1&nbsp;a&nbsp;collapsed&nbsp;version&nbsp;of&nbsp;the&nbsp;previous&nbsp;Tweet&nbsp;in&nbsp;a&nbsp;conversation&nbsp;thread</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>will&nbsp;not&nbsp;be&nbsp;displayed&nbsp;when&nbsp;the&nbsp;requested&nbsp;Tweet&nbsp;is&nbsp;in&nbsp;reply&nbsp;to&nbsp;another&nbsp;Tweet.</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hideThread&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean false js"><span>false</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Specifies&nbsp;whether&nbsp;the&nbsp;embedded&nbsp;Tweet&nbsp;should&nbsp;be&nbsp;floated&nbsp;left,&nbsp;right,&nbsp;or&nbsp;center&nbsp;in</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>the&nbsp;page&nbsp;relative&nbsp;to&nbsp;the&nbsp;parent&nbsp;element.Valid&nbsp;values&nbsp;are&nbsp;left,&nbsp;right,&nbsp;center,&nbsp;and&nbsp;none.</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Defaults&nbsp;to&nbsp;none,&nbsp;meaning&nbsp;no&nbsp;alignment&nbsp;styles&nbsp;are&nbsp;specified&nbsp;for&nbsp;the&nbsp;Tweet.</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;align&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>none</span><span class="punctuation definition string end js"><span>'</span></span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Request&nbsp;returned&nbsp;HTML&nbsp;and&nbsp;a&nbsp;rendered&nbsp;Tweet&nbsp;in&nbsp;the&nbsp;specified.</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Supported&nbsp;Languages&nbsp;listed&nbsp;here&nbsp;(</span><span class="markup underline link hyperlink"><span>https://dev.twitter.com/web/overview/languages</span></span><span>)</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;lang&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>en</span><span class="punctuation definition string end js"><span>'</span></span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta brace curly js"><span>}</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>set&nbsp;to&nbsp;true&nbsp;to&nbsp;embed&nbsp;codepen</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;codepenEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>codepen&nbsp;height&nbsp;(width&nbsp;can&nbsp;be&nbsp;adjusted&nbsp;by&nbsp;css)</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;codepenHeight&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant numeric js"><span>300</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>set&nbsp;to&nbsp;true&nbsp;to&nbsp;embed&nbsp;jsfiddle</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jsfiddleEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>jsfiddle&nbsp;height&nbsp;(width&nbsp;can&nbsp;be&nbsp;adjusted&nbsp;by&nbsp;css)</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jsfiddleHeight&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant numeric js"><span>300</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>set&nbsp;to&nbsp;true&nbsp;to&nbsp;embed&nbsp;jsbin</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jsbinEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>jsbin&nbsp;height&nbsp;(width&nbsp;can&nbsp;be&nbsp;adjusted&nbsp;by&nbsp;css)</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jsbinHeight&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant numeric js"><span>300</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>set&nbsp;to&nbsp;true&nbsp;to&nbsp;embed&nbsp;soundcloud</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;spotifyEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;soundCloudEmbed&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;soundCloudOptions</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="meta brace curly js"><span>{</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;height&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant numeric js"><span>160</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;themeColor&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>f50000</span><span class="punctuation definition string end js"><span>'</span></span></span><span class="meta delimiter object comma js"><span>,</span></span><span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Hex&nbsp;Code&nbsp;of&nbsp;the&nbsp;player&nbsp;theme&nbsp;color</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;autoPlay&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean false js"><span>false</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hideRelated&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean false js"><span>false</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showComments</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showUser&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Show&nbsp;or&nbsp;hide&nbsp;the&nbsp;uploader&nbsp;name,&nbsp;useful&nbsp;e.g.&nbsp;in&nbsp;tiny&nbsp;players&nbsp;to&nbsp;save&nbsp;space)</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;showReposts&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean false js"><span>false</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;visual&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean false js"><span>false</span></span><span class="meta delimiter object comma js"><span>,</span></span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Show/hide&nbsp;the&nbsp;big&nbsp;preview&nbsp;image</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;download&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean false js"><span>false</span></span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>Show/Hide&nbsp;download&nbsp;buttons</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta brace curly js"><span>}</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;twitchtvEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dotsubEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dailymotionEmbed&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vineEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span>&nbsp;</span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vineOptions</span><span class="keyword operator js"><span>:</span></span><span class="meta brace curly js"><span>{</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;width</span><span class="keyword operator js"><span>:</span></span><span class="constant numeric js"><span>500</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type</span><span class="keyword operator js"><span>:</span></span><span class="string quoted single js"><span class="punctuation definition string begin js"><span>'</span></span><span>postcard</span><span class="punctuation definition string end js"><span>'</span></span></span><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>'postcard'&nbsp;or&nbsp;'simple'&nbsp;embedding</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta brace curly js"><span>}</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tedEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;liveleakEmbed&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="keyword operator js"><span>:</span></span><span class="constant language boolean true js"><span>true</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>callback&nbsp;before&nbsp;pdf&nbsp;preview</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta function json js"><span class="entity name function js"><span>beforePdfPreview</span></span><span>&nbsp;&nbsp;:&nbsp;</span><span class="storage type function js"><span>function</span></span><span class="punctuation definition begin js"><span>(</span></span><span class="punctuation definition end js"><span>)</span></span></span><span class="punctuation section scope begin js"><span>{</span></span><span class="punctuation section scope end js"><span>}</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>callback&nbsp;after&nbsp;pdf&nbsp;preview</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta function json js"><span class="entity name function js"><span>afterPdfPreview</span></span><span>&nbsp;&nbsp;&nbsp;:&nbsp;</span><span class="storage type function js"><span>function</span></span><span class="punctuation definition begin js"><span>(</span></span><span class="punctuation definition end js"><span>)</span></span></span><span class="punctuation section scope begin js"><span>{</span></span><span class="punctuation section scope end js"><span>}</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>&nbsp;callback&nbsp;on&nbsp;video&nbsp;frame&nbsp;view</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta function json js"><span class="entity name function js"><span>onVideoShow</span></span><span>:</span><span class="storage type function js"><span>function</span></span><span class="punctuation definition begin js"><span>(</span></span><span class="punctuation definition end js"><span>)</span></span></span><span class="punctuation section scope begin js"><span>{</span></span><span class="punctuation section scope end js"><span>}</span></span><span class="meta delimiter object comma js"><span>,</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation comment js"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span><span class="comment line double-slash js"><span class="punctuation definition comment js"><span>//</span></span><span>callback&nbsp;on&nbsp;video&nbsp;load&nbsp;(youtube/vimeo)</span><span>&nbsp;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="meta function json js"><span class="entity name function js"><span>onVideoLoad</span></span><span>:</span><span class="storage type function js"><span>function</span></span><span class="punctuation definition begin js"><span>(</span></span><span class="punctuation definition end js"><span>)</span></span></span><span class="punctuation section scope begin js"><span>{</span></span><span class="punctuation section scope end js"><span>}</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span>&nbsp;</span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="meta brace curly js"><span>}</span></span><span class="meta brace round js"><span>)</span></span><span class="punctuation terminator statement js"><span>;</span></span></span></span></div><div class="line"><span class="text html"><span class="source js embedded html"><span class="punctuation definition tag html"><span>&lt;/</span></span><span class="entity name tag script html"><span>script</span></span><span class="punctuation definition tag html"><span>&gt;</span></span><span>&nbsp;</span></span></span></div></pre></code></pre>
+<p>If you specify either one of <strong>videoWidth</strong> or <strong>videoHeight</strong> , the other option will be automatically set in the aspected ratio.</p>
+<h2 id="user-content-contributing" class="deep-link"><a href="https://www.npmjs.com/package/emoticons-js#contributing">Contributing</a></h2>
+<p>Before sending a pull request remember to follow <a href="http://contribute.jquery.org/style-guide/js/">jQuery Core Style Guide</a>.</p>
+<ol>
+<li>Fork it!</li>
+<li>Create your feature branch: <code>git checkout -b my-new-feature</code></li>
+<li>Make your changes on the <code>src</code> folder, never on the <code>dist</code> folder.</li>
+<li>Commit your changes: <code>git commit -m 'Add some feature'</code></li>
+<li>Push to the branch: <code>git push origin my-new-feature</code></li>
+<li>Submit a pull request 😄</li>
+</ol>
+<h2 id="user-content-license" class="deep-link"><a href="https://www.npmjs.com/package/emoticons-js#license">License</a></h2>
+<pre><code><pre class="editor editor-colors"><div class="line"><span class="text"><span>The&nbsp;MIT&nbsp;License&nbsp;(MIT)</span></span></div><div class="line"><span class="text"><span>Copyright&nbsp;(c)&nbsp;2014&nbsp;Ritesh&nbsp;Kumar</span></span></div><div class="line"><span class="text"><span>&nbsp;</span></span></div><div class="line"><span class="text"><span>Permission&nbsp;is&nbsp;hereby&nbsp;granted,&nbsp;free&nbsp;of&nbsp;charge,&nbsp;to&nbsp;any&nbsp;person&nbsp;obtaining&nbsp;a&nbsp;copy</span></span></div><div class="line"><span class="text"><span>of&nbsp;this&nbsp;software&nbsp;and&nbsp;associated&nbsp;documentation&nbsp;files&nbsp;(the&nbsp;"Software"),&nbsp;to&nbsp;deal</span></span></div><div class="line"><span class="text"><span>in&nbsp;the&nbsp;Software&nbsp;without&nbsp;restriction,&nbsp;including&nbsp;without&nbsp;limitation&nbsp;the&nbsp;rights</span></span></div><div class="line"><span class="text"><span>to&nbsp;use,&nbsp;copy,&nbsp;modify,&nbsp;merge,&nbsp;publish,&nbsp;distribute,&nbsp;sublicense,&nbsp;and/or&nbsp;sell</span></span></div><div class="line"><span class="text"><span>copies&nbsp;of&nbsp;the&nbsp;Software,&nbsp;and&nbsp;to&nbsp;permit&nbsp;persons&nbsp;to&nbsp;whom&nbsp;the&nbsp;Software&nbsp;is</span></span></div><div class="line"><span class="text"><span>furnished&nbsp;to&nbsp;do&nbsp;so,&nbsp;subject&nbsp;to&nbsp;the&nbsp;following&nbsp;conditions:</span></span></div><div class="line"><span class="text"><span>&nbsp;</span></span></div><div class="line"><span class="text"><span>The&nbsp;above&nbsp;copyright&nbsp;notice&nbsp;and&nbsp;this&nbsp;permission&nbsp;notice&nbsp;shall&nbsp;be&nbsp;included&nbsp;in&nbsp;all</span></span></div><div class="line"><span class="text"><span>copies&nbsp;or&nbsp;substantial&nbsp;portions&nbsp;of&nbsp;the&nbsp;Software.</span></span></div><div class="line"><span class="text"><span>&nbsp;</span></span></div><div class="line"><span class="text"><span>THE&nbsp;SOFTWARE&nbsp;IS&nbsp;PROVIDED&nbsp;"AS&nbsp;IS",&nbsp;WITHOUT&nbsp;WARRANTY&nbsp;OF&nbsp;ANY&nbsp;KIND,&nbsp;EXPRESS&nbsp;OR</span></span></div><div class="line"><span class="text"><span>IMPLIED,&nbsp;INCLUDING&nbsp;BUT&nbsp;NOT&nbsp;LIMITED&nbsp;TO&nbsp;THE&nbsp;WARRANTIES&nbsp;OF&nbsp;MERCHANTABILITY,</span></span></div><div class="line"><span class="text"><span>FITNESS&nbsp;FOR&nbsp;A&nbsp;PARTICULAR&nbsp;PURPOSE&nbsp;AND&nbsp;NONINFRINGEMENT.&nbsp;IN&nbsp;NO&nbsp;EVENT&nbsp;SHALL&nbsp;THE</span></span></div><div class="line"><span class="text"><span>AUTHORS&nbsp;OR&nbsp;COPYRIGHT&nbsp;HOLDERS&nbsp;BE&nbsp;LIABLE&nbsp;FOR&nbsp;ANY&nbsp;CLAIM,&nbsp;DAMAGES&nbsp;OR&nbsp;OTHER</span></span></div><div class="line"><span class="text"><span>LIABILITY,&nbsp;WHETHER&nbsp;IN&nbsp;AN&nbsp;ACTION&nbsp;OF&nbsp;CONTRACT,&nbsp;TORT&nbsp;OR&nbsp;OTHERWISE,&nbsp;ARISING&nbsp;FROM,</span></span></div><div class="line"><span class="text"><span>OUT&nbsp;OF&nbsp;OR&nbsp;IN&nbsp;CONNECTION&nbsp;WITH&nbsp;THE&nbsp;SOFTWARE&nbsp;OR&nbsp;THE&nbsp;USE&nbsp;OR&nbsp;OTHER&nbsp;DEALINGS&nbsp;IN&nbsp;THE</span></span></div><div class="line"><span class="text"><span>SOFTWARE.</span></span></div></pre></code></pre>
+
+  </div>
+
+</div>
+
+<div class="sidebar">
+
+    <div class="promotion" data-promotion-id="551" data-promotion-spot="packagePage"><div class="marketing">
+<h3 id="marketing-texthed">npm ♥ you!</h3>
+<h3><img src="./emoticons-js_files/haggis-type-342x100.jpg" alt="npm ♥ you" style="min-width: 100%; max-width: 100%; margin-top: -15px;"></h3></div></div>
+
+    <div class="autoselect-wrapper npm-install icon-download">
+      <input type="text" value="npm install emoticons-js" readonly="">
+      <p><a href="https://www.npmjs.com/package/emoticons-js/tutorial">how? learn more</a></p>
+    </div>
+
+  <ul class="box">
+
+      <li class="last-publisher">
+          <a href="https://www.npmjs.com/~ritz078">
+            <img src="./emoticons-js_files/55c3671e959e903a7880eaf0cf61f3e4" alt="ritz078">
+            <span>ritz078</span>
+          </a>
+          published
+          <span data-date="2015-03-23T19:37:41.255Z" data-date-format="relative">a year ago</span>
+      </li>
+
+    <li>
+      <strong>2.0.0</strong>
+      is the latest
+        of 3 releases
+    </li>
+
+      <li>
+        <a href="https://github.com/ritz078/emoticons-js">github.com/ritz078/emoticons-js</a>
+      </li>
+
+
+      <li>
+          <a href="http://spdx.org/licenses/MIT">MIT</a>
+          <img class="osi" alt="Licensed on OSI-approved terms" src="./emoticons-js_files/osi.svg">®
+      </li>
+
+  </ul>
+
+    <h3 title="collaborators">
+      <a href="https://www.npmjs.com/package/emoticons-js/access">Collaborators</a>
+    </h3>
+
+    <ul class="humans collaborators">
+        <li>
+            <a href="https://www.npmjs.com/~ritz078" rel="tipsy" original-title="ritz078">
+                <img src="./emoticons-js_files/55c3671e959e903a7880eaf0cf61f3e4" alt="ritz078">
+            </a>
+        </li>
+
+
+    </ul>
+
+    <h3>Stats</h3>
+    <ul class="box">
+
+        <li>
+          <strong class="pretty-number daily-downloads">3</strong>
+          downloads in the last day
+        </li>
+        <li>
+          <strong class="pretty-number weekly-downloads">14</strong>
+          downloads in the last week
+        </li>
+        <li>
+          <strong class="pretty-number monthly-downloads">27</strong>
+          downloads in the last month
+        </li>
+
+        <li id="issues" data-ghapi="https://api.github.com/repos/ritz078/emoticons-js">
+          <span class="original" style="display: none;">Have an issue? <a href="https://github.com/ritz078/emoticons-js/issues">One open issue</a></span>
+            <span class="enhanced" style="">
+              <a href="https://github.com/ritz078/emoticons-js/issues">One open issue</a> on GitHub
+            </span>
+        </li>
+
+        <li id="pull_requests" style="">
+          <a href="https://github.com/ritz078/emoticons-js/pulls">No open pull requests</a> on GitHub
+        </li>
+
+    </ul>
+
+      <h3>Try it out</h3>
+      <ul class="box">
+        <li class="tonicdev"><a href="https://tonicdev.com/npm/emoticons-js" target="_blank">Test emoticons-js in your browser.</a></li>
+      </ul>
+
+  <h3>Keywords</h3>
+  <p class="list-of-links">
+        <a href="https://www.npmjs.com/browse/keyword/plugins">plugins</a>, 
+        <a href="https://www.npmjs.com/browse/keyword/jquery-plugin">jquery-plugin</a>, 
+        <a href="https://www.npmjs.com/browse/keyword/jquery">jquery</a>, 
+        <a href="https://www.npmjs.com/browse/keyword/emoticons">emoticons</a>, 
+        <a href="https://www.npmjs.com/browse/keyword/jquery-emoticons">jquery-emoticons</a>, 
+        <a href="https://www.npmjs.com/browse/keyword/emoticon">emoticon</a>, 
+        <a href="https://www.npmjs.com/browse/keyword/emoticons-js">emoticons-js</a>
+  </p>
+
+  <h3>Dependencies (1)</h3>
+  <p class="list-of-links">
+                <a href="https://www.npmjs.com/package/jquery">jquery</a>
+  </p>
+
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "emoticons-js",
+      "description": "A jQuery plugin for converting text emojis into image-based emoticons, also supporting an automatic media embedding system for multimedia URLs",
+      "url": "https://www.npmjs.com/package/emoticons-js",
+      "keywords": "plugins,jquery-plugin,jquery,emoticons,jquery-emoticons,emoticon,emoticons-js",
+      "applicationCategory": "DeveloperApplication",
+      "offers": {
+         "@type": "Offer",
+         "price": "0.00"
+      }
+    }
+  </script>
+
+    <div class="hiring-container" data-template="sidebar"><div class="ad">
+  <p>
+    <a href="http://microapps.com/were-hiring/?utm_source=npm_who_is_hiring_page&amp;utm_medium=web&amp;utm_campaign=npm_who_is_hiring" title="microapps">microapps</a> is hiring.
+    <a class="quiet" href="https://www.npmjs.com/whoshiring">View more…</a>
+  </p>
+</div></div>
+
+</div>
+
+
+    </div>
+
+  <footer>
+
+    <div class="container">
+
+
+        <ul class="columnar">
+          <li>
+            <h3>You Need Help</h3>
+            <ul class="links">
+              <li><a href="https://docs.npmjs.com/">Documentation</a></li>
+              <li><a href="https://www.npmjs.com/support">Support / Contact Us</a></li>
+              <li><a href="http://status.npmjs.org/">Registry Status</a></li>
+              <li><a href="https://github.com/npm/newww/issues">Website Issues</a></li>
+              <li><a href="https://github.com/npm/npm/issues">CLI Issues</a></li>
+              <li><a href="https://www.npmjs.com/policies/security">Security</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <h3>About npm</h3>
+            <ul class="links">
+              <li><a href="https://www.npmjs.com/about">About npm, Inc</a></li>
+              <li><a href="https://www.npmjs.com/jobs">Jobs</a></li>
+              <li><a href="https://www.npmjs.com/npm-weekly">npm Weekly</a></li>
+              <li><a href="http://blog.npmjs.org/">Blog</a></li>
+              <li><a href="https://twitter.com/npmjs">Twitter</a></li>
+              <li><a href="https://github.com/npm">GitHub</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <h3>Legal Stuff</h3>
+            <ul class="links">
+              <li><a href="https://www.npmjs.com/policies/terms">Terms of Use</a></li>
+              <li><a href="https://www.npmjs.com/policies/conduct">Code of Conduct</a></li>
+              <li><a href="https://www.npmjs.com/policies/disputes">Package Name Disputes</a></li>
+              <li><a href="https://www.npmjs.com/policies/privacy">Privacy Policy</a></li>
+              <li><a href="https://www.npmjs.com/policies/receiving-reports">Reporting Abuse</a></li>
+              <li><a href="https://www.npmjs.com/policies/">Other policies</a></li>
+            </ul>
+          </li>
+        </ul>
+
+
+    </div>
+
+    <div class="container centered">
+      <a class="npm-loves-you" href="https://www.npmjs.com/">
+        npm loves you
+      </a>
+    </div>
+
+  </footer>
+  
+  <script defer="" src="./emoticons-js_files/vendor.min.a3c53b90.js"></script>
+  <script defer="" async="" src="./emoticons-js_files/3318080746.js"></script>
+  <script defer="" async="" src="./emoticons-js_files/elqCfg.min.js"></script><!-- Eloqua -->
+
+
+
+<!-- pid=32528 bfc051e49dc803bd7af5e86e89eae21d143526ad https://www.npmjs.com www-13-west.internal.npmjs.com  -->
+<div class="drop-down-menu-overlay" data-drop-down-menu="product-navigation"></div><div class="autocomplete-container" style="position: absolute; display: none; max-height: 400px; z-index: 9999;"><div class="autocomplete-suggestions" style="position: absolute; display: none; max-height: 400px; z-index: 9999;"></div></div></body></html>
